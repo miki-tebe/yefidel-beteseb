@@ -1,3 +1,8 @@
+/**
+ * Returns the letters family
+ * @param letter
+ * @returns string[] | null
+ */
 export function getBet(letter: string): string[] | null {
   letter = letter.charCodeAt(0).toString(16).toUpperCase();
   if (letter >= '1200' && letter <= '1207') {
